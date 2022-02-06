@@ -1,0 +1,19 @@
+{
+  "name": "test_autohero",
+  "version": "1.0.0",
+  "description": "Test cases automatic",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open",
+    "cypress:chrome": "cypress run --browser chrome --spec cypress/integration/test/*.spec.js"
+
+  },
+  "author": "Jessica Martinez",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.4.1",
+    "cypress-mochawesome-reporter": "^2.3.0",
+    "cypress-xpath": "^1.6.2"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "chromeWebSecurity": false,
+    "screenshotOnRunFailure": true,
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "Autohero report automatic test cases",
+        "embeddedScreenshots": true
+    }
+}
